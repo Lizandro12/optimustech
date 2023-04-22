@@ -360,3 +360,17 @@ body{
         width: 23%;
     }
 }
+
+
+@media screen and (max-width:850px) {
+    .content{
+        flex-direction: column;
+        
+    }
+        
+    .content__item{
+        text-align: start;
+        width: 40%;
+    }
+}
+

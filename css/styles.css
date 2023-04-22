@@ -382,10 +382,21 @@ body{
         margin-top: 1.25rem;
     }
 
-
+    .container__title{
+        margin-bottom: 0.5rem;
+    }
+    .title__especial{
+        font-size: 60px;
+        color: var(--highlight-color);
+    }
+    
+    .content__description{
+        margin-bottom: 0;
+    }
+    
     .content__text{
         width: 100%;
-        padding: 1rem;
+        padding: 0.5rem;
     }
 }
 

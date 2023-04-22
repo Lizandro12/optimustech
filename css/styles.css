@@ -374,6 +374,11 @@ body{
         text-align: center;
     
     }
+
+    .container__metrics{
+        padding: 0 5rem 2rem 5rem;
+    
+    }
     .content{
         flex-direction: column;
         
@@ -421,7 +426,15 @@ body{
         gap: 1.5rem;
     }
     
-    .vacancies__available__card{
+    /*.vacancies__available__card{
         margin: 10px 0;
+    }*/
+
+    .container__coments__box{
+        width: 100%;
+        border-radius: 0;
+        padding: 4rem 3rem 0 3rem;
+        margin-bottom: 5rem;
+    }
 }
 

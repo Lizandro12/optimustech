@@ -409,11 +409,7 @@ body{
     }
     
     .vacancies__available__group{
-        width: 60%;
-        display: flex;
-        flex-direction: column;
-        margin-bottom:4rem ;
-    
+        width: 80%;
     }
     
     .group__title{

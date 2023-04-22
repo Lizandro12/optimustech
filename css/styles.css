@@ -19,6 +19,9 @@
     font-family: var(--typography);
 
 }
+body{
+    width: 100vw;
+}
 
 .header{
     display: flex;
@@ -29,7 +32,7 @@
 .header__navigation{
     display: flex;
     gap: 7.4rem;
-    width: 50%;
+    max-width: 50%;
     align-items: center;
 }
 
@@ -61,7 +64,7 @@
 .link__special{
     background-color: var(--highlight-color);
     padding: 0.6rem 1rem;
-    border-radius: 8px;
+    border-radius: 0.5rem;
     font-size: 1rem;
     color: var(--primary-color);
 }
@@ -106,6 +109,7 @@
     justify-content: center;
     align-items: center;
     gap: 2rem;
+    width: 100%;
 
 }
 
@@ -331,4 +335,28 @@
 .copy{
     color: var(--tertiary-color);
     font-size: 1rem;
+}
+
+@media screen and (max-width:1180px) {
+    .container__metrics{
+    padding: 0 20px 96px 20px;
+    }
+}
+
+
+@media screen and (max-width:960px) {
+    .container__metrics{
+    padding: 0 0 6rem 0;
+    }
+
+    .content{
+        gap: 0;
+        width: 100%;
+    
+    }
+    
+    .content__item{
+        text-align: start;
+        width: 23%;
+    }
 }

@@ -475,11 +475,6 @@ body{
         flex-direction: column;
         gap: 1.5rem;
     }
-    
-    /*.vacancies__available__card{
-        margin: 10px 0;
-    }*/
-
     .container__coments__box{
         width: 100%;
         border-radius: 0;

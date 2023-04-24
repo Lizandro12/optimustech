@@ -378,9 +378,9 @@ body{
 @media screen and (max-width:850px) {
     .header__navigation{
         position: fixed;
-        right: -100%;
-        top: 60px;
-        width: 100%;
+        top: 0;
+        left: -100%;
+        width: 78%;
         height: 100%;
         flex-direction: column;
         background: var(--tertiary-color-special);
@@ -388,7 +388,7 @@ body{
         padding-top: 40px;
     }
     .header__navigation.active{
-        right: 0%;
+        left: 0%;
     }
     .header__navigation__list{
         flex-direction: column;
@@ -396,6 +396,19 @@ body{
     }
     .header__menu__icon{
         display: block;
+    }
+    .header__menu__icon.active .bar:nth-child(1){
+        transform: translateY(0.5rem) rotate(225deg);
+        transition: all 0.3s;
+
+    }
+    .header__menu__icon.active .bar:nth-child(2){
+        opacity: 0;
+    }
+    .header__menu__icon.active .bar:nth-child(3){
+        transform: translateY(-0.5rem) rotate(-225deg);
+        transition: all 0.3s;
+
     }
     .header__account{
         flex-direction: column;
@@ -472,6 +485,9 @@ body{
         border-radius: 0;
         padding: 4rem 3rem 0 3rem;
         margin-bottom: 5rem;
+    }
+    .coments__title{
+        font-size: 1rem;
     }
 }
 

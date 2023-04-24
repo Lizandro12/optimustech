@@ -81,6 +81,12 @@ body{
     margin: 0.31rem auto;
     background-color: var(--highlight-color);
 }
+.header__menu__icon .bar:nth-child(1),
+.bar:nth-child(2),
+.bar:nth-child(3){
+    transition: all 0.3s;
+
+}
 
 .container__about{
     display: flex;
@@ -376,8 +382,13 @@ body{
 
 
 @media screen and (max-width:850px) {
+    .header{
+    justify-content: space-between;
+    padding-left: 12%;
+    padding-right: 12%;
+    }
     .header__navigation{
-        position: absolute;
+        position: fixed;
         top: 0;
         left: -100%;
         width: 78%;
@@ -474,6 +485,9 @@ body{
         display: flex;
         flex-direction: column;
         gap: 1.5rem;
+    }
+    .vacancies__title{
+        width: 80%;
     }
     .container__coments__box{
         width: 100%;

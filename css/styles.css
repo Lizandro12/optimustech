@@ -487,7 +487,34 @@ body{
         margin-bottom: 5rem;
     }
     .coments__title{
+        font-size: 1.5rem;
+    }
+    .footer{
+        padding: 6rem 0.4rem 2rem 0.4rem;
+    }
+    .footer__content{
+        width: 100%;
+    }
+    .footer__title{
+        font-size: 2rem;
+    }
+    .footer__text{
         font-size: 1rem;
+    }
+    .news__letter{
+        display: flex;
+        flex-direction: column;
+        width: 90%;
+    }
+    .form__email{
+        width: 100%;
+        margin-bottom: 0.5rem;
+    }
+    .btn{
+        margin-bottom: 0.9rem;
+    }
+    .copy{
+        margin-top: 0.9rem;
     }
 }
 

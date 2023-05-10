@@ -19,9 +19,6 @@
     font-family: var(--typography);
 
 }
-body{
-    width: 100vw;
-}
 
 .header{
     display: flex;
